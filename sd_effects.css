@@ -32,7 +32,7 @@ body {
         /* This makes a really small circle and gives it a color of white and tells it where to start and end. */
         radial-gradient(5% 5% at 90% 10%, white 15%, rgba(0, 0, 0, 0)40%),
         rgb(151, 151, 151);
-    /* This gives  */
+    /* This gives a shadow to the body element on the rendered page. The rgb gives the shadow a certain color.  */
     box-shadow: rgb(31, 31, 31) 30px 0px 45px, rgb(31, 31, 31) -30px 0px 45px;
 }
 
@@ -40,6 +40,7 @@ body {
 
 
 /* Navigation List Styles */
+/* This code sets the border of the navigation styles to 5 pixels and sets it to be outset. The rgb is the color of the border. */
 body>header a {
     border: 5px outset rgb(211, 211, 255);
 }
@@ -47,17 +48,20 @@ body>header a {
 
 
 /* Section Left Styles */
+/* This set of code affects the h1 of the page and gives it a color of that certain rgb and it gives it a text shadow of white. */
 h1 {
     color: rgb(211, 211, 211);
     text-shadow: white 0px 0px 5px;
 }
 
+/* This set of code affects the id of mportrait that i have in my html and it gives it a filter of the certain colors, grayscale and opacity. I also rotated it 180 degrees. */
 #mportrait {
     -webkit-filter: drop-shadow(-15px 0 5px rgba(51, 51, 51, 0.9)) grayscale(0.7) opacity(0.6);
     transform: rotateY(180deg);
 }
 
 /* Footer Styles */
+/* This set of code affects the footer of the rendered page. It sets the top of the border to have a 2 pixel solid border. And a certain color. */
 footer {
     border-top: 2px solid rgb(171, 171, 171);
 }
