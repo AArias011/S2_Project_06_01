@@ -49,9 +49,9 @@ body>header a {
 
 /* Section Left Styles */
 /* This set of code affects the h1 of the page and gives it a color of that certain rgb and it gives it a text shadow of white. */
-h1 {
+section#left article h1 {
     color: rgb(211, 211, 211);
-    text-shadow: white 0px 0px 5px;
+    text-shadow: black 0px 0px 5px;
 }
 
 /* This set of code affects the id of mportrait that i have in my html and it gives it a filter of the certain colors, grayscale and opacity. I also rotated it 180 degrees. */
